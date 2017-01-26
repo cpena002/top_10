@@ -1,14 +1,8 @@
-.img{
-  max-width: 275px;
+img {
+  width: 275px;
+  height: 235px;
   margin-left: 278px;
   box-shadow: 5px 5px 5px;
-}
-
-#fortuna {
-  max-height: 150px;
-float: none;
-  box-shadow: 5px 5px 5px;
-  margin-left: 178px;
 }
 
 header {
@@ -21,9 +15,11 @@ header {
   color: #00aedb;
 }
 
-p {
-  font-family: ariel;
-
+#text p {
+  font-family: 'Source Serif Pro', serif;
+  letter-spacing: 2px;
+  line-height: 150%;
+  font-size: 14px;
 }
 p::first-letter {
   font-size: 35px;
@@ -31,16 +27,17 @@ p::first-letter {
 }
 
 table, caption , th {
-  border-style: ridge;
+  border-style: groove;
   border-width: medium;
-  border-color: #8ec127;
+  border-color: black;
   margin-top: 10px;
+  text-align: left;
 }
 
 td  {
   border-style: solid;
   border-width: thin;
-  border-color: #8ec127;
+  border-color: black;
 }
 
 caption {
@@ -77,8 +74,9 @@ ul li {
   text-align: left;
 }
 ul {
-  margin-left:350px;
+  margin-left:50px;
   color: #f47835;
+
 }
 
 h1, h2 {
